@@ -1,0 +1,134 @@
+.footer{
+  width: 100%;
+  text-align: center;
+}
+
+.footer-main{
+  background-color: #111 !important;
+  width: 100%;
+  background-color: #222;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-top: 20px;
+}
+
+@media all and (max-width: 968px) {
+  .footer-main{
+    width: 100%;
+    background-color: #222;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.footer-text-1{
+  color: #888;
+  font-size: 1vw;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-text-2{
+  color: #888;
+  font-size: 1vw;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.email{
+	color: #111;
+	font-size: 1.2vw;
+	text-align: center;
+	line-height: 42px;
+  transition: 0.3s;
+}
+
+.email:hover{
+  transition: 0.3s;
+	color: #fff;
+	font-size: 1.3vw;
+	line-height: 42px;
+}
+
+.iconhover{
+  color: #fff !important;
+	font-size: 1.7vw;
+	line-height: 42px;
+  display: inline-block;
+  margin: 0 10px 0 0;
+  padding-bottom: 20px;
+}
+.iconhover> i{
+  transition: 0.3s;
+  color: #fff;
+  font-size: 1.7vw;
+}
+
+.iconhover:hover> i{
+  transition: 0.3s;
+  color: #111;
+  font-size: 2vw;
+}
+
+.iconhover2{
+  transition: 0.3s;
+  color: #fff;
+  font-size: 1.7vw;
+}
+
+.iconhover2:hover{
+  transition: 0.3s;
+  color: #111;
+  font-size: 1.75vw;
+}
+
+.footer-2{
+  background-color: #222 !important;
+}
+
+.spatie{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media all and (max-width: 968px) {
+  .iconhover2{
+    font-size: 3vw;
+  }
+
+  .iconhover2:hover{
+    font-size: 3.5vw;
+  }
+
+  .iconhover:hover{
+    font-size: 4vw;
+  }
+
+  .email:hover{
+    font-size: 3.5vw;
+  }
+
+  .footer-text-2{
+    font-size: 2.5vw;
+  }
+
+  .footer-text-1{
+    font-size: 2.5vw;
+  }
+
+  .email{
+    font-size: 3.5vw;
+  }
+
+  .iconhover> i{
+    font-size: 3.5vw;
+  }
+
+  .footer-text-1{
+    font-size: 2.5vw;
+  }
+
+  #important2{
+    font-size: 3vw !important;
+  }
+}
